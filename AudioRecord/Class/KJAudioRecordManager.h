@@ -7,10 +7,19 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface KJAudioRecordManager : NSObject
+
+//开始录制AAC
+- (void)startRecordAAC;
+
+//结束录制AAC
+- (void)stopRecordAAC;
+
+//开始播放AAC
+- (void)playRecordAAC;
+
+//停止播放AAC
+- (void)stopPlayRecordAAC;
 
 @end
 
-NS_ASSUME_NONNULL_END

@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53656653A6B3904B371265AD /* libPods-AudioRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC6427E3E05F736E484A1DD /* libPods-AudioRecord.a */; };
 		64F704352A96F5CA003A39E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F704342A96F5CA003A39E6 /* AppDelegate.m */; };
 		64F704382A96F5CA003A39E6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F704372A96F5CA003A39E6 /* SceneDelegate.m */; };
 		64F7043B2A96F5CA003A39E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F7043A2A96F5CA003A39E6 /* ViewController.m */; };
-		64F7043E2A96F5CA003A39E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F7043C2A96F5CA003A39E6 /* Main.storyboard */; };
 		64F704402A96F5CB003A39E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F7043F2A96F5CB003A39E6 /* Assets.xcassets */; };
 		64F704432A96F5CB003A39E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F704412A96F5CB003A39E6 /* LaunchScreen.storyboard */; };
 		64F704462A96F5CB003A39E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F704452A96F5CB003A39E6 /* main.m */; };
 		64F704502A96F5CB003A39E6 /* AudioRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F7044F2A96F5CB003A39E6 /* AudioRecordTests.m */; };
 		64F7045A2A96F5CB003A39E6 /* AudioRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F704592A96F5CB003A39E6 /* AudioRecordUITests.m */; };
 		64F7045C2A96F5CB003A39E6 /* AudioRecordUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F7045B2A96F5CB003A39E6 /* AudioRecordUITestsLaunchTests.m */; };
+		64F7046A2A96F61F003A39E6 /* KJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F704692A96F61F003A39E6 /* KJTabBarController.m */; };
+		64F7046E2A96F85D003A39E6 /* KJAACEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F7046D2A96F85D003A39E6 /* KJAACEncoder.m */; };
+		64F704712A96F875003A39E6 /* KJAACDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F704702A96F875003A39E6 /* KJAACDecoder.m */; };
+		64F704742A96F95D003A39E6 /* KJAudioRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F704732A96F95D003A39E6 /* KJAudioRecordManager.m */; };
+		64F704792A970819003A39E6 /* KJVoiceAnimatedView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64F704772A970819003A39E6 /* KJVoiceAnimatedView.bundle */; };
+		64F7047A2A970819003A39E6 /* KJVoiceAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F704782A970819003A39E6 /* KJVoiceAnimatedView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59D51FE9752DC7F8A581AB45 /* Pods-AudioRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioRecord.release.xcconfig"; path = "Target Support Files/Pods-AudioRecord/Pods-AudioRecord.release.xcconfig"; sourceTree = "<group>"; };
+		5EC6427E3E05F736E484A1DD /* libPods-AudioRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AudioRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F704302A96F5CA003A39E6 /* AudioRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F704332A96F5CA003A39E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64F704342A96F5CA003A39E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +62,18 @@
 		64F704552A96F5CB003A39E6 /* AudioRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F704592A96F5CB003A39E6 /* AudioRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioRecordUITests.m; sourceTree = "<group>"; };
 		64F7045B2A96F5CB003A39E6 /* AudioRecordUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioRecordUITestsLaunchTests.m; sourceTree = "<group>"; };
+		64F704682A96F61F003A39E6 /* KJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTabBarController.h; sourceTree = "<group>"; };
+		64F704692A96F61F003A39E6 /* KJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTabBarController.m; sourceTree = "<group>"; };
+		64F7046C2A96F85D003A39E6 /* KJAACEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJAACEncoder.h; sourceTree = "<group>"; };
+		64F7046D2A96F85D003A39E6 /* KJAACEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJAACEncoder.m; sourceTree = "<group>"; };
+		64F7046F2A96F875003A39E6 /* KJAACDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJAACDecoder.h; sourceTree = "<group>"; };
+		64F704702A96F875003A39E6 /* KJAACDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJAACDecoder.m; sourceTree = "<group>"; };
+		64F704722A96F95D003A39E6 /* KJAudioRecordManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJAudioRecordManager.h; sourceTree = "<group>"; };
+		64F704732A96F95D003A39E6 /* KJAudioRecordManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJAudioRecordManager.m; sourceTree = "<group>"; };
+		64F704762A970819003A39E6 /* KJVoiceAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJVoiceAnimatedView.h; sourceTree = "<group>"; };
+		64F704772A970819003A39E6 /* KJVoiceAnimatedView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KJVoiceAnimatedView.bundle; sourceTree = "<group>"; };
+		64F704782A970819003A39E6 /* KJVoiceAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJVoiceAnimatedView.m; sourceTree = "<group>"; };
+		A48E316C4AAA1B77658CAA6F /* Pods-AudioRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioRecord.debug.xcconfig"; path = "Target Support Files/Pods-AudioRecord/Pods-AudioRecord.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53656653A6B3904B371265AD /* libPods-AudioRecord.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1265EDC514C624069F731F44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A48E316C4AAA1B77658CAA6F /* Pods-AudioRecord.debug.xcconfig */,
+				59D51FE9752DC7F8A581AB45 /* Pods-AudioRecord.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		64F704272A96F5CA003A39E6 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +118,8 @@
 				64F7044E2A96F5CB003A39E6 /* AudioRecordTests */,
 				64F704582A96F5CB003A39E6 /* AudioRecordUITests */,
 				64F704312A96F5CA003A39E6 /* Products */,
+				1265EDC514C624069F731F44 /* Pods */,
+				920AD0B4D183269F7F97FA29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +136,9 @@
 		64F704322A96F5CA003A39E6 /* AudioRecord */ = {
 			isa = PBXGroup;
 			children = (
+				64F7046B2A96F74A003A39E6 /* Class */,
+				64F704682A96F61F003A39E6 /* KJTabBarController.h */,
+				64F704692A96F61F003A39E6 /* KJTabBarController.m */,
 				64F704332A96F5CA003A39E6 /* AppDelegate.h */,
 				64F704342A96F5CA003A39E6 /* AppDelegate.m */,
 				64F704362A96F5CA003A39E6 /* SceneDelegate.h */,
@@ -136,6 +171,38 @@
 			path = AudioRecordUITests;
 			sourceTree = "<group>";
 		};
+		64F7046B2A96F74A003A39E6 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				64F704752A970819003A39E6 /* VoiceAnimatedView */,
+				64F7046C2A96F85D003A39E6 /* KJAACEncoder.h */,
+				64F7046D2A96F85D003A39E6 /* KJAACEncoder.m */,
+				64F7046F2A96F875003A39E6 /* KJAACDecoder.h */,
+				64F704702A96F875003A39E6 /* KJAACDecoder.m */,
+				64F704722A96F95D003A39E6 /* KJAudioRecordManager.h */,
+				64F704732A96F95D003A39E6 /* KJAudioRecordManager.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		64F704752A970819003A39E6 /* VoiceAnimatedView */ = {
+			isa = PBXGroup;
+			children = (
+				64F704762A970819003A39E6 /* KJVoiceAnimatedView.h */,
+				64F704782A970819003A39E6 /* KJVoiceAnimatedView.m */,
+				64F704772A970819003A39E6 /* KJVoiceAnimatedView.bundle */,
+			);
+			path = VoiceAnimatedView;
+			sourceTree = "<group>";
+		};
+		920AD0B4D183269F7F97FA29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6427E3E05F736E484A1DD /* libPods-AudioRecord.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64F7045F2A96F5CB003A39E6 /* Build configuration list for PBXNativeTarget "AudioRecord" */;
 			buildPhases = (
+				C21E7E8C3BA733B18C5445D5 /* [CP] Check Pods Manifest.lock */,
 				64F7042C2A96F5CA003A39E6 /* Sources */,
 				64F7042D2A96F5CA003A39E6 /* Frameworks */,
 				64F7042E2A96F5CA003A39E6 /* Resources */,
@@ -239,9 +307,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F704792A970819003A39E6 /* KJVoiceAnimatedView.bundle in Resources */,
 				64F704432A96F5CB003A39E6 /* LaunchScreen.storyboard in Resources */,
 				64F704402A96F5CB003A39E6 /* Assets.xcassets in Resources */,
-				64F7043E2A96F5CA003A39E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,15 +329,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C21E7E8C3BA733B18C5445D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioRecord-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		64F7042C2A96F5CA003A39E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				64F7043B2A96F5CA003A39E6 /* ViewController.m in Sources */,
+				64F7046E2A96F85D003A39E6 /* KJAACEncoder.m in Sources */,
+				64F704742A96F95D003A39E6 /* KJAudioRecordManager.m in Sources */,
 				64F704352A96F5CA003A39E6 /* AppDelegate.m in Sources */,
 				64F704462A96F5CB003A39E6 /* main.m in Sources */,
+				64F7047A2A970819003A39E6 /* KJVoiceAnimatedView.m in Sources */,
 				64F704382A96F5CA003A39E6 /* SceneDelegate.m in Sources */,
+				64F7046A2A96F61F003A39E6 /* KJTabBarController.m in Sources */,
+				64F704712A96F875003A39E6 /* KJAACDecoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +535,7 @@
 		};
 		64F704602A96F5CB003A39E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48E316C4AAA1B77658CAA6F /* Pods-AudioRecord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,9 +546,10 @@
 				INFOPLIST_FILE = AudioRecord/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +564,7 @@
 		};
 		64F704612A96F5CB003A39E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D51FE9752DC7F8A581AB45 /* Pods-AudioRecord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,9 +575,10 @@
 				INFOPLIST_FILE = AudioRecord/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

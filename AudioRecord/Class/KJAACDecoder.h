@@ -6,11 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface KJAACDecoder : NSObject
 
-@end
+- (void)play;
 
-NS_ASSUME_NONNULL_END
+- (void)stop;
+
+@end
